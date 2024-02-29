@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/estilo.css">
+    <title>E-Comerce</title>
+</head>
+<body>
+    <div class="container">
+        <div class="container-header">
+            <header class="header">
+                <div class="container-logo">
+                    <a href=""><img src="img/logo.png" alt="" class="logo"> </a>
+                </div>
+                
+                <!-- Buscador oculto en CSS -->
+                <div class="container-search">
+                    <div class="input">
+                        <input type="text" placeholder="Buscar marcas y modelos [No funciona]">
+                        <i class="bi bi-search icono-busqueda"></i>
+                    </div>
+                </div>
+                <!-- Buscador oculto en CSS -->
+
+                <div class="nav-menu">
+                        <button class="boton-categoria" id="todos">Todos los productos</button>
+                        <button class="boton-categoria" id="motorola">Motorola</button>
+                        <button class="boton-categoria" id="Samsung">Samsung</button>
+                        <button class="boton-categoria" id="Xiaomi">Xiaomi</button>
+                        <button class="boton-categoria" id="IPhone">IPhone</button>
+                </div>
+
+                <div class="info-user">
+                    <a href="#">Creá tu cuenta</a>
+                    <a href="#">Ingresá</a>
+                    <a href="#">Mis Compras</a>
+                    <a href="carrito.html">
+                        <i class="bi bi-cart icono-carrito"></i>
+                        <span class="num-en-carrito" id="num-en-carrito">0</span>
+                    </a>
+                </div>
+            </header>
+        </div>
+        
+        <!-- Carousel Inicia -->
+       
+          <!-- Carousel Termina -->
+
+        <!-- main - contenedor de productos -->
+        <main id="main">
+            <h2 class="titulo-seccion" id="titulo-seccion">Todos los productos</h2>
+            
+            <div id="contenedor-productos" class="contenedor-productos">
+                <div class="producto" id="celular-01">
+                    <img src="./motorola/01.png" alt="" class="producto-imagen">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo"> Motorola Moto E13 64gb 2gb Ram Azul Turquesa </h3>
+                        <p class="producto-precio">$59.000 <span class="descuento">18% OFF</span></p>
+                        <p class="producto-tipo-envio">Envío gratis</p>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img src="./motorola/01.png" alt="" class="producto-imagen">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo"> Motorola Moto E13 64gb 2gb Ram Azul Turquesa </h3>
+                        <p class="producto-precio">$59.000 <span class="descuento">18% OFF</span></p>
+                        <p class="producto-tipo-envio">Envío gratis</p>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img src="./motorola/01.png" alt="" class="producto-imagen">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo"> Motorola Moto E13 64gb 2gb Ram Azul Turquesa </h3>
+                        <p class="producto-precio">$59.000 <span class="descuento">18% OFF</span></p>
+                        <p class="producto-tipo-envio">Envío gratis</p>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img src="./motorola/01.png" alt="" class="producto-imagen">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo"> Motorola Moto E13 64gb 2gb Ram Azul Turquesa </h3>
+                        <p class="producto-precio">$59.000 <span class="descuento">18% OFF</span></p>
+                        <p class="producto-tipo-envio">Envío gratis</p>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img src="./motorola/01.png" alt="" class="producto-imagen">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo"> Motorola Moto E13 64gb 2gb Ram Azul Turquesa </h3>
+                        <p class="producto-precio">$59.000 <span class="descuento">18% OFF</span></p>
+                        <p class="producto-tipo-envio">Envío gratis</p>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img src="./motorola/01.png" alt="" class="producto-imagen">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo"> Motorola Moto E13 64gb 2gb Ram Azul Turquesa </h3>
+                        <p class="producto-precio">$59.000 <span class="descuento">18% OFF</span></p>
+                        <p class="producto-tipo-envio">Envío gratis</p>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img src="./motorola/01.png" alt="" class="producto-imagen">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo"> Motorola Moto E13 64gb 2gb Ram Azul Turquesa </h3>
+                        <p class="producto-precio">$59.000 <span class="descuento">18% OFF</span></p>
+                        <p class="producto-tipo-envio">Envío gratis</p>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img src="./motorola/01.png" alt="" class="producto-imagen">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo"> Motorola Moto E13 64gb 2gb Ram Azul Turquesa </h3>
+                        <p class="producto-precio">$59.000 <span class="descuento">18% OFF</span></p>
+                        <p class="producto-tipo-envio">Envío gratis</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- contenedor de detalle de producto visitado -->
+            <div class="contenedor-producto-visitado" id="contenedor-producto-visitado">
+                <div class="producto-visitado">
+                    <span class="cerrar" onclick="cerrar()"> <i class="bi bi-x-circle"></i> </span>
+                        <div class="fotos-galeria">
+                        
+                        <div class="foto-principal">
+                            <img src="./motorola/11.png" alt="" id="foto-principal">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    
+
+    <script src="./js/main.js"></script>
+</body>
+
+ <div class="footer">
+    <footer id="footer">
+       
+        
+    </footer>
+</div>  
+
+</html>
